@@ -1,6 +1,20 @@
 # Use pre-existing components (ICTPRG439)
 
 ---
+## Task Management CLI App
+A command-line application for adding, deleting and listing tasks.
+## Reusable Component
+- 'python-dateutil' is used to improve due date validation. Tasks with a due date in the past are not accepted.
+- Rich is used to display the task list as a formatted table.
+## Running the Application
+```bash
+python main.py
+```
+## Running the Tests
+```bash
+python -m unittest discover tests
+```
+---
 
 ## **Overview**
 
